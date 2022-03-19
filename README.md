@@ -1,27 +1,44 @@
+
 # Barbearia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Projeto criado em sala durante o curso Técnico de Desenvolvimento de Sistemas.
 
-## Development server
+    O projeto foi desenvolvido no pensando de agilizar o sistema de filas de uma barbearia.
+    O barbeiro poderá organizar os clientes em um cronograma, cadastrando e dando os serviços
+    como finalizados.[
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Forma de Utilização
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    Inicialmente o barbeiro irá inserir uma senha na tela inicial, senha essa que foi definida
+    na criação do projeto, caso a senha for inserida corretamente, uma tela de cadastro surge,
+    o barbeiro então terá que preencher os campos solicitados com:Nome, Contato e Serviço.
+    Após preenchido e presionado o botão "Cadastrar cliente na fila", os campos digitados 
+    serão inseridos na tabela abaixo do botão. Quando já finalizado o serviço, o barbeiro
+    poderá utilizar da função "Finalizar", que se encontra ao lado da linha de cadastro do
+    cliente, assim limpando a linha e declarando o serviço como pronto.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Autores
 
-## Running unit tests
+- [@ngiliade](https://www.github.com/Ngiliade)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Funcionalidades
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Utilização do ngif
+- Utilização do ngFor
+- Integração com BACKEND
+- Envio de requisições (GET, POST e PATCH)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instalação
+
+Para ter acesso é necessário:
+
+- Copiar o link HTTPS do projeto no GITHUB
+- Clonar o repositório usando `git clone <link>`
+- Instalar as dependências `npm i`
+- Iniciar o servidor `ng serve -o`
+  
+
